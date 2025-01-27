@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+<groups>
+<run>
+<include name="Purchase"/>
+</run>
+
+</groups>
+  <test thread-count="5" name="SubmitOrderTest">
+    <classes>
+      <class name="rahulshettyacademy.SeleniumFrameworkDesign.SubmitOrderTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test thread-count="5" name="Error Validations">
+    <classes>
+      <class name="rahulshettyacademy.SeleniumFrameworkDesign.ErrorValidationsTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
+
+
