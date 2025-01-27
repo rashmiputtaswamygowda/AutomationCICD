@@ -21,7 +21,8 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		//new comments are added
+
 		String productName="IPHONE 13 PRO";
 		//Use WebdriverManager
 		WebDriverManager.chromedriver().setup();
